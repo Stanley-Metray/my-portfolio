@@ -339,14 +339,12 @@ header section {
     .services {
         padding: 10px;
     }
-    
-    .card
-    {
+
+    .card {
         height: 450px;
     }
 
-    .card-img-top
-    {
+    .card-img-top {
         height: 300px !important;
     }
 
@@ -442,4 +440,29 @@ header section {
     100% {
         box-shadow: #27272c;
     }
+}
+
+
+/* Custom scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, #4b6cb7 0%, #182848 100%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

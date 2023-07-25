@@ -4,15 +4,15 @@ const ContactMe = () => {
         <div className="d-flex flex-column flex-md-row justify-content-around align-items-center">
             <div className="d-flex flex-column align-items-center">
                 <i className="bi bi-envelope-fill text-danger fs-3"></i>
-                <a target="_blank" href="">stanleymetray@gmail.com</a>
+                <a href="#">stanleymetray@gmail.com</a>
             </div>
             <div className="d-flex flex-column align-items-center mt-3 mt-md-0">
                 <i className="bi bi-linkedin text-primary fs-3"></i>
-                <a target="_blank" href="https://rb.gy/e687z">linkedin/Stanley Metray</a>
+                <a href="https://rb.gy/e687z">linkedin/Stanley Metray</a>
             </div>
             <div className="d-flex flex-column align-items-center mt-3 mt-md-0">
                 <i className="bi bi-github fs-3"></i>
-                <a target="_blank" href="https://github.com/Stanley-Metray">github/Stanley Metray</a>
+                <a href="https://github.com/Stanley-Metray">github/Stanley Metray</a>
             </div>
             <div className="d-flex flex-column align-items-center mt-4 mt-md-0">
                 <i className="bi bi-telephone-outbound-fill fs-3 text-success"></i>
