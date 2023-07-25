@@ -453,12 +453,12 @@ header section {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: linear-gradient(180deg, #4b6cb7 0%, #182848 100%);
+    background: linear-gradient(180deg, #0F2027 0%, #182848 100%);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #fff;
     border-radius: 30px;
 }
 

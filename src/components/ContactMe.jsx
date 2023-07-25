@@ -4,7 +4,7 @@ const ContactMe = () => {
         <div className="d-flex flex-column flex-md-row justify-content-around align-items-center">
             <div className="d-flex flex-column align-items-center">
                 <i className="bi bi-envelope-fill text-danger fs-3"></i>
-                <a href="#">stanleymetray@gmail.com</a>
+                <a href="#n/a">stanleymetray@gmail.com</a>
             </div>
             <div className="d-flex flex-column align-items-center mt-3 mt-md-0">
                 <i className="bi bi-linkedin text-primary fs-3"></i>
