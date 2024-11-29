@@ -1,4 +1,4 @@
-import resume from "./images/Standli-Metray-Resume.png"; 
+import resume from "./images/Standli-Metray-Resume.jpg"; 
 import resumePDF from "./files/Standli-Metray-Resume.pdf";
 
 const Resume = () => {

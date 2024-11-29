@@ -8,6 +8,8 @@ const Skills = () => {
     const responsiveimg = require("./images/responsive.jpg");
     const domimg = require("./images/DOM.png");
     const figmaimg = require("./images/figma-logo-2.png");
+    const mysqlimg = require("./images/mysql.jpg");
+    const sequelizeimg = require("./images/sequelize.png");
 
     return <div id="skills" className="skills py-5">
         <h2 className="fw-bold mb-5">My Skills List</h2>
@@ -90,6 +92,24 @@ const Skills = () => {
                     <div className="card-body">
                         <h5 className="card-title fw-bold">Figma</h5>
                         <p className="card-text">Skilled in using Figma, a design tool, to create wireframes, mockups, and streamlining the design and development process.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col">
+                <div className="card border-secondary shadow">
+                    <img src={mysqlimg} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title fw-bold">MySql</h5>
+                        <p className="card-text">Proficient in using MySQL to design and manage databases, optimize queries, and ensure efficient data retrieval and storage.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col">
+                <div className="card border-secondary shadow">
+                    <img src={sequelizeimg} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title fw-bold">Sequelize</h5>
+                        <p className="card-text">Experienced in using Sequelize.js to manage models, handle associations, and optimize queries, leveraging its ORM capabilities for efficient and maintainable database interactions.</p>
                     </div>
                 </div>
             </div>

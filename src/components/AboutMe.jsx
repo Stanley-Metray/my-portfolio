@@ -4,35 +4,42 @@ import c2 from "../certificates/FreeCodeCampAlgorithms.png";
 const AboutMe = () => {
     return <>
         <div id="about-me" className="about-me">
-            <p>Hello thank you for visiting my portfolio, I'm <strong>Stanley Metray</strong>, a passionate and ambitious web developer. As a fresher in the field of web development, I'm thrilled to present my portfolio that showcases my growing skills and dedication to creating exceptional web experiences. Here are the technologies I specialize in:</p>
+            <p>Hello, and thank you for visiting my portfolio! I’m <strong>Stanley Metray</strong>, a passionate and eager web developer. As I begin my journey in the field of web development, I’m excited to share my portfolio, which highlights the skills I’ve developed so far and my commitment to learning and creating meaningful web experiences. Below are the technologies I’m working with:</p>
 
             <h1 className="fs-6 fw-bold">HTML5, CSS3, and JavaScript - Building the Foundation:</h1>
-            <p>Proficient in the trio of web development, I create visually appealing and responsive websites using HTML5, CSS3, and JavaScript. From crafting elegant layouts to implementing dynamic features, I strive to provide a seamless user experience across all devices.</p>
+            <p>Skilled in creating visually appealing and responsive websites using HTML5, CSS3, and JavaScript. I focus on crafting elegant layouts and dynamic features to ensure a smooth user experience across various devices.</p>
 
             <h1 className="fs-6 fw-bold">React.js - Interactive and Modern Frontend:</h1>
-            <p>I have a strong command of React.js, which enables me to build interactive and modern user interfaces. With a component-based approach, I develop efficient and reusable UI elements that enhance the performance and functionality of web applications.</p>
+            <p>With React.js, I build interactive and modern user interfaces by leveraging its component-based structure. I aim to create efficient and reusable UI elements that enhance the user experience and performance of web applications.</p>
 
             <h1 className="fs-6 fw-bold">Bootstrap - Responsive Design Made Easy:</h1>
-            <p>Utilizing Bootstrap, I design websites with a mobile-first approach, ensuring they look stunning on various devices. By leveraging Bootstrap's grid system and pre-designed components, I create visually appealing and user-friendly interfaces.</p>
+            <p>Using Bootstrap, I design websites with a mobile-first approach. The grid system and pre-designed components help me create visually appealing and user-friendly interfaces, ensuring the website looks great on different devices.</p>
 
             <h1 className="fs-6 fw-bold">Node.js & Express.js - Powering the Backend:</h1>
-            <p>Familiar with Node.js and Express.js, I dive into backend development to build robust and scalable server-side applications. With a focus on data management and security, I ensure seamless communication between the frontend and backend.</p>
+            <p>Working with Node.js and Express.js, I develop scalable and robust backend applications. I focus on ensuring smooth data management and secure communication between the frontend and backend of web applications.</p>
 
             <h1 className="fs-6 fw-bold">MongoDB - Efficient Database Solutions:</h1>
-            <p>I have hands-on experience with MongoDB, a powerful NoSQL database, allowing me to design and implement efficient database solutions for web applications. This ensures data is managed effectively and applications perform optimally.</p>
+            <p>Experienced in MongoDB, I design and implement efficient NoSQL database solutions that help manage application data effectively while maintaining good performance.</p>
 
-            <p>I am enthusiastic about tackling challenges and learning new technologies to stay at the forefront of web development. My portfolio showcases a variety of projects where I've applied my skills to solve problems and deliver compelling solutions.</p>
-            <p>As a fresher, I'm eager to collaborate and contribute to innovative projects. If you are interested in working together or have any inquiries, please feel free to reach out to me via email. Thank you for visiting my portfolio, and scroll down to explore more about me and my projects.</p>
+            <h1 className="fs-6 fw-bold">MySQL - Structured and Reliable Databases:</h1>
+            <p>Proficient in MySQL, I design relational databases with a focus on data integrity and efficient querying. I apply SQL best practices to manage and organize data effectively in web applications.</p>
+
+            <h1 className="fs-6 fw-bold">Sequelize - ORM for Simplified Data Management:</h1>
+            <p>With Sequelize, I simplify database interactions in Node.js applications, using its ORM capabilities for MySQL and other relational databases. This helps streamline data management and improve the efficiency of database operations.</p>
+
+
+            <p>I am always eager to learn and take on new challenges to improve my skills. My portfolio includes projects where I’ve applied these technologies to solve real-world problems and deliver practical solutions.</p>
+            <p>As a fresher, I’m excited about the opportunity to collaborate, grow, and contribute to innovative projects. Feel free to reach out to me via email if you're interested in working together or have any questions. Thank you for visiting, and I invite you to explore my projects further.</p>
             <div className="certificates">
                 <h2 className="fw-bold text-white my-5">Certificates</h2>
                 <div className="row">
                     <div className="col-md-6">
                         <img src={c1} alt="Udemy" />
-                        <button onClick={()=>{window.location="https://www.udemy.com/certificate/UC-5e28cd3c-8aa4-4c04-b544-5da0868a0ea1"}} ><span>Show credential</span><i></i></button>
+                        <button onClick={() => { window.location = "https://www.udemy.com/certificate/UC-5e28cd3c-8aa4-4c04-b544-5da0868a0ea1" }} ><span>Show credential</span><i></i></button>
                     </div>
                     <div className="col-md-6 mt-3 mt-md-0">
                         <img src={c2} alt="FreeCodeCamp" />
-                        <button onClick={()=>{window.location="https://www.freecodecamp.org/certification/Stanley-Metray/javascript-algorithms-and-data-structures"}}><span>Show credential</span><i></i></button>
+                        <button onClick={() => { window.location = "https://www.freecodecamp.org/certification/Stanley-Metray/javascript-algorithms-and-data-structures" }}><span>Show credential</span><i></i></button>
                     </div>
                 </div>
             </div>
